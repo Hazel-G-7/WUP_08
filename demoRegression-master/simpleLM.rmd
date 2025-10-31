@@ -58,3 +58,18 @@ The predicted weight of a bear compared to the length adjusted R-Square value of
 
 
 
+
+
+```{r}
+simp3<- lm(WEIGHT~HEADWTH,data=bears)
+plot(WEIGHT~HEADWTH,data=bears)
+abline(simp)
+summary.lm(simp3)
+```
+
+
+The predicted weight of a bear compared to the headwth adjusted R-Square value of 0.6138, and the Residual standard error value of 76.41.
+
+
+
+
