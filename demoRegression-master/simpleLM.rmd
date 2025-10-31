@@ -44,3 +44,17 @@ summary.lm(simp1)
 
 The predicted weight of a bear compared to the chest adjusted R-Square value of 0.9262, and the Residual standard error value of 33.08.
 
+
+
+```{r}
+simp2<- lm(WEIGHT~LENGTH,data=bears)
+plot(WEIGHT~LENGTH,data=bears)
+abline(simp)
+summary.lm(simp2)
+```
+
+
+The predicted weight of a bear compared to the length adjusted R-Square value of 0.7423, and the Residual standard error value of 61.83
+
+
+
