@@ -93,3 +93,18 @@ The predicted weight of a bear compared to the head length adjusted R-Square val
 
 
 
+#CONCLUSION
+
+
+According to the data collected, the ranking is as such:
+
+
+1. WEIGHT~CHEST: RSE: 33.08 & ARS: 0.9262
+2. WEIGHT~NECK: RSE: 43.91 & ARS: 0.8725
+3. WEIGHT~LENGTH: RSE: 61.83 & ARS: 0.7243
+4. WEIGHT~HEADLENGTH: RSE: 67.81 & ARS: 0.6959
+5. WEIGHT~HEADWIDTH: RSE: 76.41 & ARS: 0.6064
+6. WEIGHT~AGE: RSE:  81.47 & ARS: 0.5526
+
+
+
