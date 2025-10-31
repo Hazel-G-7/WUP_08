@@ -72,4 +72,15 @@ The predicted weight of a bear compared to the headwth adjusted R-Square value o
 
 
 
+```{r}
+simp4<- lm(WEIGHT~NECK,data=bears)
+plot(WEIGHT~NECK,data=bears)
+abline(simp)
+summary.lm(simp4)
+```
+The predicted weight of a bear compared to the nec adjusted R-Square value of 0.8725, and the Residual standard error value of 43.91.
+
+
+
+
 
